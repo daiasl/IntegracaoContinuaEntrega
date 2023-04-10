@@ -1,0 +1,10 @@
+br\edu\infnet\solicitantes\controller\App.class
+br\edu\infnet\solicitantes\config\MyConfig.class
+br\edu\infnet\solicitantes\SolicitantesApplication.class
+br\edu\infnet\solicitantes\config\MyHandler.class
+br\edu\infnet\solicitantes\model\Solicitantes.class
+br\edu\infnet\solicitantes\model\Sexo.class
+br\edu\infnet\solicitantes\controller\SolicitantesController.class
+br\edu\infnet\solicitantes\services\SolicitantesRepository.class
+br\edu\infnet\solicitantes\services\SolicitantesService.class
+br\edu\infnet\solicitantes\model\SolicitantesDto.class
