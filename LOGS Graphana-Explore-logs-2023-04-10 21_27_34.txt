@@ -1,0 +1,71 @@
+Common labels: {"app":"solicitantes","host":"0c0d8ecfc4a9"}
+Line limit: "1000 (33 returned)"
+Total bytes processed: "7.13  kB"
+
+
+2023-04-10T20:39:45-03:00	2023-04-10T23:39:45.856Z  INFO 23:39:45.856 [solicitantes,,] 1 --- [http-nio-8080-exec-4] b.e.i.solicitantes.config.MyHandler      : After running the observation for context [http.server.requests], userType [UNKNOWN]
+
+2023-04-10T20:39:45-03:00	2023-04-10T23:39:45.836Z  INFO 23:39:45.836 [solicitantes,8854cdba5a1a3dfee403e51dfd6eabbd,d8a0a002ea4bba04] 1 --- [http-nio-8080-exec-4] b.e.i.s.services.SolicitantesService     : Buscando solicitante com cpf = 111111111-11
+
+2023-04-10T20:39:45-03:00	2023-04-10T23:39:45.835Z  INFO 23:39:45.835 [solicitantes,8854cdba5a1a3dfee403e51dfd6eabbd,d8a0a002ea4bba04] 1 --- [http-nio-8080-exec-4] b.e.i.s.c.SolicitantesController         : findById got a request
+
+2023-04-10T20:39:45-03:00	2023-04-10T23:39:45.819Z  INFO 23:39:45.819 [solicitantes,,] 1 --- [http-nio-8080-exec-4] b.e.i.solicitantes.config.MyHandler      : Before running the observation for context [http.server.requests], userType [UNKNOWN]
+
+2023-04-10T20:38:43-03:00	2023-04-10T23:38:43.579Z  INFO 23:38:43.579 [solicitantes,,] 1 --- [http-nio-8080-exec-1] b.e.i.solicitantes.config.MyHandler      : After running the observation for context [http.server.requests], userType [UNKNOWN]
+
+2023-04-10T20:38:43-03:00	2023-04-10T23:38:43.213Z  INFO 23:38:43.213 [solicitantes,50a6ae6cffb641f4ba4819c807f96beb,72cd2f9a0031511e] 1 --- [http-nio-8080-exec-1] b.e.i.s.services.SolicitantesService     : Buscando todos os solicitantes
+
+2023-04-10T20:38:43-03:00	2023-04-10T23:38:43.212Z  INFO 23:38:43.212 [solicitantes,50a6ae6cffb641f4ba4819c807f96beb,72cd2f9a0031511e] 1 --- [http-nio-8080-exec-1] b.e.i.s.c.SolicitantesController         : findAll got a request
+
+2023-04-10T20:38:43-03:00	2023-04-10T23:38:43.148Z  INFO 23:38:43.148 [solicitantes,,] 1 --- [http-nio-8080-exec-1] b.e.i.solicitantes.config.MyHandler      : Before running the observation for context [http.server.requests], userType [UNKNOWN]
+
+2023-04-10T20:38:43-03:00	2023-04-10T23:38:43.130Z  INFO 23:38:43.130 [solicitantes,,] 1 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+
+2023-04-10T20:38:43-03:00	2023-04-10T23:38:43.127Z  INFO 23:38:43.127 [solicitantes,,] 1 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+
+2023-04-10T20:38:43-03:00	2023-04-10T23:38:43.126Z  INFO 23:38:43.126 [solicitantes,,] 1 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-04-10T20:37:58-03:00	2023-04-10T23:37:58.134Z  INFO 23:37:58.134 [solicitantes,,] 1 --- [main] b.e.i.s.SolicitantesApplication          : Started SolicitantesApplication in 12.345 seconds (process running for 13.805)
+
+2023-04-10T20:37:58-03:00	2023-04-10T23:37:58.111Z  INFO 23:37:58.111 [solicitantes,,] 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+
+2023-04-10T20:37:56-03:00	2023-04-10T23:37:56.528Z  WARN 23:37:56.528 [solicitantes,,] 1 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2023-04-10T20:37:56-03:00	2023-04-10T23:37:56.458Z  INFO 23:37:56.458 [solicitantes,,] 1 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+
+2023-04-10T20:37:55-03:00	2023-04-10T23:37:55.466Z  INFO 23:37:55.466 [solicitantes,,] 1 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2023-04-10T20:37:55-03:00	2023-04-10T23:37:55.447Z  INFO 23:37:55.447 [solicitantes,,] 1 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+2023-04-10T20:37:53-03:00	2023-04-10T23:37:53.901Z  INFO 23:37:53.901 [solicitantes,,] 1 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+
+2023-04-10T20:37:53-03:00	2023-04-10T23:37:53.334Z  INFO 23:37:53.334 [solicitantes,,] 1 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+
+2023-04-10T20:37:53-03:00	2023-04-10T23:37:53.248Z  INFO 23:37:53.248 [solicitantes,,] 1 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+
+2023-04-10T20:37:52-03:00	2023-04-10T23:37:52.983Z  INFO 23:37:52.983 [solicitantes,,] 1 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:solicitantesbd'
+
+2023-04-10T20:37:52-03:00	2023-04-10T23:37:52.967Z  INFO 23:37:52.967 [solicitantes,,] 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+2023-04-10T20:37:52-03:00	2023-04-10T23:37:52.963Z  INFO 23:37:52.963 [solicitantes,,] 1 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:solicitantesbd user=SA
+
+2023-04-10T20:37:52-03:00	2023-04-10T23:37:52.580Z  INFO 23:37:52.580 [solicitantes,,] 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+
+2023-04-10T20:37:51-03:00	2023-04-10T23:37:51.980Z  INFO 23:37:51.980 [solicitantes,,] 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3979 ms
+
+2023-04-10T20:37:51-03:00	2023-04-10T23:37:51.978Z  INFO 23:37:51.978 [solicitantes,,] 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+
+2023-04-10T20:37:51-03:00	2023-04-10T23:37:51.873Z  INFO 23:37:51.873 [solicitantes,,] 1 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+
+2023-04-10T20:37:51-03:00	2023-04-10T23:37:51.872Z  INFO 23:37:51.872 [solicitantes,,] 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+
+2023-04-10T20:37:51-03:00	2023-04-10T23:37:51.855Z  INFO 23:37:51.855 [solicitantes,,] 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+
+2023-04-10T20:37:50-03:00	2023-04-10T23:37:50.902Z  INFO 23:37:50.902 [solicitantes,,] 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+
+2023-04-10T20:37:50-03:00	2023-04-10T23:37:50.814Z  INFO 23:37:50.814 [solicitantes,,] 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+
+2023-04-10T20:37:47-03:00	2023-04-10T23:37:47.871Z  INFO 23:37:47.871 [solicitantes,,] 1 --- [main] b.e.i.s.SolicitantesApplication          : No active profile set, falling back to 1 default profile: "default"
+
+2023-04-10T20:37:47-03:00	2023-04-10T23:37:47.851Z  INFO 23:37:47.851 [solicitantes,,] 1 --- [main] b.e.i.s.SolicitantesApplication          : Starting SolicitantesApplication v0.0.1-SNAPSHOT using Java 17.0.6 with PID 1 (/app/app.jar started by root in /app)
+

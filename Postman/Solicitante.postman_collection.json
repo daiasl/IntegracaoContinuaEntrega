@@ -1,42 +1,42 @@
 {
 	"info": {
-		"_postman_id": "8c39ced3-d78c-41ea-a2b2-c2aa9b081a73",
-		"name": "Usuarios",
+		"_postman_id": "4096d81f-5585-4573-b5ed-49f64fd4d5b0",
+		"name": "Solicitantes",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "17755529"
+		"_exporter_id": "6606029"
 	},
 	"item": [
 		{
-			"name": "List All",
+			"name": "Listar Todos",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/usuarios",
+					"raw": "localhost:8080/solicitantes",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"usuarios"
+						"solicitantes"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "List One",
+			"name": "ListarUm",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/usuarios/111111111-11",
+					"raw": "localhost:8080/solicitantes/111111111-11",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"usuarios",
+						"solicitantes",
 						"111111111-11"
 					]
 				}
@@ -44,7 +44,7 @@
 			"response": []
 		},
 		{
-			"name": "Save",
+			"name": "Salvar",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -59,20 +59,20 @@
 					"raw": "{\r\n    \"cpf\": \"123456789-10\",\r\n    \"nome\": \"Novo Usuario\",\r\n    \"sexo\": \"MASCULINO\"\r\n}"
 				},
 				"url": {
-					"raw": "localhost:8080/usuarios",
+					"raw": "localhost:8080/solicitantes",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"usuarios"
+						"solicitantes"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Delete One",
+			"name": "Excluir",
 			"request": {
 				"method": "DELETE",
 				"header": [
@@ -87,13 +87,13 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:8080/usuarios/222222222-22",
+					"raw": "localhost:8080/solicitantes/222222222-22",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"usuarios",
+						"solicitantes",
 						"222222222-22"
 					]
 				}
